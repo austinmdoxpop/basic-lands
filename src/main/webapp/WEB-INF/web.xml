@@ -5,7 +5,7 @@ xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns
 
 	<servlet>
 		<servlet-name>InitServlet</servlet-name>
-		<servlet-class>com.servlet.InitServlet</servlet-class>
+		<servlet-class>com.basiclands.servlet.InitServlet</servlet-class>
 	</servlet>
 	
 	<servlet-mapping>
@@ -13,4 +13,24 @@ xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns
 		<url-pattern>/</url-pattern>
 	</servlet-mapping>
 
+	<servlet>
+		<servlet-name>SetServlet</servlet-name>
+		<servlet-class>com.basiclands.servlet.SetServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>SetServlet</servlet-name>
+		<url-pattern>/Sets</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>GetLandsFromJsonServlet</servlet-name>
+		<servlet-class>com.basiclands.servlet.GetLandsFromJsonServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>GetLandsFromJsonServlet</servlet-name>
+		<url-pattern>/GetLandsFromJson</url-pattern>
+	</servlet-mapping>
+	
 </web-app>

@@ -1,4 +1,4 @@
-package com.basiclands.Bean;
+package com.basiclands.DataBean;
 
 import javax.persistence.Entity;
 import javax.persistence.Table;
